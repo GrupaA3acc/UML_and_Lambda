@@ -23,7 +23,7 @@ public class Person {
         private String street;
     }
 
-    static Predicate<Person> imieZawierajaceA = person -> person.name.toLowerCase().contains("a");
+    static Predicate<Person> imieZawierajaceK = person -> person.name.toLowerCase().contains("k");
     static Predicate<Person> nrTelfonuZPolski = person -> person.phone.contains("+48");
     static Predicate<Person> czyPelnoletni = person -> person.age >= 18;
 
